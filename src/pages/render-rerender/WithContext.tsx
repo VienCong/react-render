@@ -35,6 +35,7 @@ function RerenderChildrenUseProps({ themeName }: ThemeContext) {
   );
 }
 
+// memo component
 const MemoRerenderChildrenUseContext = memo(RerenderChildrenUseContext);
 const MemoRerenderChildrenUseProps = memo(RerenderChildrenUseProps);
 
