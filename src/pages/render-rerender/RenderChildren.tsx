@@ -13,9 +13,10 @@ function RenderChildren() {
       </Son>
       <Son type="Function">
         {
-          ((props: ChildernProps) => (
-            <Childern {...props} />
-          )) as unknown as ReactNode
+          //   ((props: ChildernProps) => (
+          //     <Childern {...props} />
+          //   )) as unknown as ReactNode
+          (props: ChildernProps) => <Childern {...props} />
         }
       </Son>
     </div>
